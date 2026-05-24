@@ -1,16 +1,41 @@
-# React + Vite
+# 🎬 CineSpoilerS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cinema ticket e-commerce built with React + Vite.
 
-Currently, two official plugins are available:
+## Team
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Sheila Diaz Rojas
+- Naomi Sanchez Chavarria
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- React Router DOM
+- Zustand
+- TanStack Query
+- Framer Motion
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 01 - React + Vite Running
+![01](./screenshots/01-react-vite-running.png)
+
+### 02 - Clean Dev Environment
+![02](./screenshots/02-clean-dev-environment.png)
+
+### 03 - Components and Props
+![03](./screenshots/03-components-and-props.png)
+
+### 04 - Components and State
+![04](./screenshots/04-components-and-state.png)
+
+### 05 - State and Events
+![05](./screenshots/05-state-and-events.png)
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
