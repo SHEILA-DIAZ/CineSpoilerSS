@@ -37,7 +37,6 @@ Cinema ticket e-commerce built with React + Vite.
 
 ### Naomi Sanchez Chavarria
 
-> 🔜 Coming soon
 
 ## Getting Started
 
