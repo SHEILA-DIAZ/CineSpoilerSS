@@ -1,4 +1,5 @@
 import Card from './components/Card'
+import HomeNaomi from './naomi/pages/HomeNaomi'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         title="CineSpoilerSS"
         description="Cinema ticket e-commerce built with React."
       />
+
+      <HomeNaomi />
     </main>
   )
 }

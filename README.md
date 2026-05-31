@@ -41,7 +41,7 @@ Cinema ticket e-commerce built with React + Vite.
 ![01](screenshots/06-naomi-vite-running.png)
 
 #### 02 - Clean Dev Environment
-![02]()
+![02](screenshots/07-naomi-cinespoilers-title.png)
 
 #### 03 - Components and Props
 ![03]()
@@ -50,7 +50,7 @@ Cinema ticket e-commerce built with React + Vite.
 ![04]()
 
 #### 05 - State and Events
-![05]()
+![05]() 
 
 
 ## Getting Started

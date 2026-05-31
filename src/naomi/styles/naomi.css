@@ -1,0 +1,48 @@
+/* Define la identidad visual aislada de la seccion desarrollada por Naomi. */
+.naomi-home {
+  display: flex;
+  min-height: clamp(28rem, 72vh, 48rem);
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.75rem;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(89, 66, 173, 0.2), transparent 34%),
+    linear-gradient(145deg, #11111a 0%, #07070b 58%, #10101a 100%);
+}
+
+.naomi-home__title {
+  margin: 0;
+  padding: 1.5rem;
+  color: #f8f7ff;
+  font-family: Inter, Montserrat, "Segoe UI", sans-serif;
+  font-size: clamp(3rem, 11vw, 7.5rem);
+  font-weight: 800;
+  letter-spacing: -0.08em;
+  line-height: 0.95;
+  text-align: center;
+  text-shadow:
+    0 0 1rem rgba(165, 146, 255, 0.55),
+    0 0 3rem rgba(118, 88, 255, 0.28);
+  animation: naomi-title-entry 900ms ease-out both;
+}
+
+@keyframes naomi-title-entry {
+  from {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .naomi-home__title {
+    animation: none;
+  }
+}
