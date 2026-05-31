@@ -37,6 +37,21 @@ Cinema ticket e-commerce built with React + Vite.
 
 ### Naomi Sanchez Chavarria
 
+#### 01 - React + Vite Running
+![01](screenshots/06-naomi-vite-running.png)
+
+#### 02 - Clean Dev Environment
+![02]()
+
+#### 03 - Components and Props
+![03]()
+
+#### 04 - Components and State
+![04]()
+
+#### 05 - State and Events
+![05]()
+
 
 ## Getting Started
 
